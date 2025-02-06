@@ -1,42 +1,113 @@
-# soNotes
-Simple and fast, tabbed note manager written in Python with Tkinter library
-So Notes is a Python application that allows you to manage your notes effectively. It provides a simple and intuitive interface built using the Tkinter library.
+# 📌 SoNotes – Smart & Draggable Notes Organizer
 
-## Features
+🚀 **SoNotes** is a **powerful note-taking application** built with Python and Tkinter, featuring **draggable tabs, reorderable lists, and persistent storage**. Easily create, organize, and manage notes in multiple tabs with an intuitive, user-friendly interface.
 
-- **Tab Management**: Create, delete, and rename tabs to organize your notes efficiently.
-- **Note Management**: Add, edit, move, and delete notes within tabs.
-- **Drag and Drop**: Easily reorder tabs and notes using drag and drop functionality.
-- **Keyboard Shortcuts**: Utilize keyboard shortcuts for common actions such as undo, redo, and select all.
+---
 
-## Requirements
+## 🎯 Features
 
-- Python 3.x
-- Tkinter library
+✅ **Tabbed Interface** – Organize notes into different tabs for better management.  
+✅ **Drag & Drop Tabs** – Rearrange tabs easily by dragging them.  
+✅ **Reorder Notes** – Move notes within a tab using drag & drop.  
+✅ **Persistent Storage** – Automatically saves notes and restores them on restart.  
+✅ **Note Editing** – Easily add, edit, move, and delete notes with a smooth workflow.  
+✅ **Custom Dialogs** – Interactive prompts for input and confirmations.  
+✅ **Keyboard Shortcuts** – Quickly perform actions like select all, undo, and redo.  
 
-## Usage
+---
 
-1. **Run the Application**: Execute the Python script `SoNotes.py` to launch the application.
-python SoNotes.py
+## 🛠️ Installation & Setup
 
-2. **Manage Tabs**: 
-- Click on "Tabs" in the menu bar to access options for creating, deleting, and renaming tabs.
-- To create a new tab, select "New Tab" and enter the desired name.
-- To delete a tab, select "Delete Tab" and confirm the deletion.
-- To rename a tab, select "Edit Tab Name" and enter the new name.
+### **Requirements**
+Ensure you have **Python 3.x** installed. Required libraries:
+- `tkinter` (built-in with Python)
+- `pickle` (built-in with Python)
 
-3. **Manage Notes**:
-- Click on "Notes" in the menu bar to access options for adding, editing, moving, and deleting notes.
-- To add a new note, select "Add Note" and enter the title and content.
-- To edit the name of a note, select "Edit Note Name" and choose the note to rename.
-- To move a note to another tab, select "Move Note" and choose the target tab.
-- To delete a note, select "Delete Note" and confirm the deletion.
+### **Installation**
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/saymonn37/soNotes.git
+   cd SoNotes
+   ```
 
-4. **Keyboard Shortcuts**:
-- Use keyboard shortcuts such as Ctrl+A (select all), Ctrl+Z (undo), and Ctrl+Y (redo) for quick actions.
+2. **Run the Application**  
+   ```bash
+   python3 so_notes.py
+   ```
 
-## Contributions
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request on GitHub.
+---
 
-## License
-This project is licensed under the MIT License - see the LICENSE.txt file for details.
+## 🚀 How It Works
+
+1. **Create & Manage Tabs**  
+   - Add, rename, delete, and reorder tabs with a simple drag-and-drop action.
+
+2. **Add & Edit Notes**  
+   - Add new notes by entering a title.
+   - Double-click a note to **view and edit** its content.
+
+3. **Move & Delete Notes**  
+   - Move notes between tabs with an intuitive selection system.
+   - Delete unwanted notes with a confirmation prompt.
+
+4. **Reordering**  
+   - Drag & drop notes inside a tab for a custom order.
+
+5. **Keyboard Shortcuts**
+   - `Ctrl + A` → Select all text  
+   - `Ctrl + Z` → Undo  
+   - `Ctrl + Y` or `Ctrl + Shift + Z` → Redo  
+
+---
+
+## 🖥️ UI Overview
+
+The application consists of:
+
+- **Menu Bar**: Options for managing tabs and notes.
+- **Tabbed Interface**: Organize notes efficiently.
+- **Draggable Listbox**: Allows easy reordering of notes.
+- **Text Editor**: Provides a clean, distraction-free space for writing.
+
+---
+
+## 📜 Technical Details
+
+| File                 | Description |
+|----------------------|-------------|
+| `sonotes.py`        | Main application file with Tkinter UI. |
+| `notes.dat`         | Saves all notes persistently. |
+| `window_geometry.dat` | Saves the last window position & size. |
+
+### **Key Components**
+- **Draggable Tabs** – Allows users to reorder tabs dynamically.
+- **Draggable Listbox** – Enables reordering of notes within tabs.
+- **Custom Dialogs** – Provides a seamless way to confirm actions.
+
+---
+
+## 🔧 Troubleshooting
+
+| Issue | Solution |
+|------|---------|
+| Application not opening | Ensure Python 3 is installed. Run `python3 sonotes.py`. |
+| Notes not saving | Check if `notes.dat` exists in the project folder. |
+| Window position reset | Make sure `window_geometry.dat` is writable. |
+
+---
+
+## 🏗️ Future Improvements
+
+- **Cloud Sync** – Sync notes across devices.
+- **Markdown Support** – Enhance note formatting.
+- **Dark Mode** – Aesthetic improvement for low-light environments.
+
+---
+
+## 📝 License
+
+This project is open-source under the **MIT License**.
+
+## 👥 Author
+
+Developed by [Saymonn](https://github.com/saymonn37). Contributions and feedback are welcome! 🚀
