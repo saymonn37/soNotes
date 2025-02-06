@@ -1,4 +1,4 @@
-# 📌 SoNotes – Smart & Draggable Notes Organizer
+# 📌 SoNotes – Minimal & Lightweight Notes Organizer
 
 🚀 **SoNotes** is a **powerful note-taking application** built with Python and Tkinter, featuring **draggable tabs, reorderable lists, and persistent storage**. Easily create, organize, and manage notes in multiple tabs with an intuitive, user-friendly interface.
 
